@@ -1,0 +1,39 @@
+# Ignore cache and migrate folder
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+*/__pycache__/*
+.pytest_cache/
+*/.pytest_cache/*
+**/.pytest_cache/
+
+*.py[cod]
+
+# Ignore project and celery beat
+.idea/*
+.directory
+.cache/
+.python-version
+db.sqlite3
+venv/
+
+celerybeat*
+/src/*
+/src/
+/node_modules/*
+
+# Ignore logfiles
+/logs/
+
+# Ignore tmp files folder
+/files/*
+
+# Ignore revision number generated file
+REVISION_NUMBER
+
+# TMP files
+/*.sock
+/*.sock*
+tmp.py
+/tmp
+.env
